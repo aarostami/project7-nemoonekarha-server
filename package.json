@@ -1,0 +1,71 @@
+{
+  "name": "project7-nemoonekarha-server",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fontsource/roboto": "^5.0.8",
+    "@pnpm/exe": "^8.8.0",
+    "@snowplow/browser-plugin-site-tracking": "^4.0.0",
+    "@snowplow/browser-tracker": "^4.0.0",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^15.0.7",
+    "@testing-library/user-event": "^14.5.2",
+    "analytics": "^0.8.14",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0",
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "depcheck": "^1.4.7",
+    "express": "^4.18.2",
+    "gh-pages": "^6.1.1",
+    "installed-check": "^9.3.0",
+    "jsonwebtoken": "^9.0.1",
+    "liara": "file:../../../../../../cli",
+    "mongodb": "^5.7.0",
+    "nodemon": "^3.0.1",
+    "npm": "^10.7.0",
+    "npm-check-updates": "^16.14.20",
+    "page-traffic-tracker": "^1.2.3",
+    "phantomjs-prebuilt": "^2.1.16",
+    "pnpm": "^8.8.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-responsive-3d-carousel": "^1.2.0",
+    "react-router-dom": "^6.23.0",
+    "react-scripts": "^5.0.1",
+    "react-spring-3d-carousel": "^1.3.4",
+    "uuid": "^9.0.1",
+    "web-vitals": "^3.5.2",
+    "yet-another-react-lightbox": "^3.17.5"
+  },
+  "scripts": {
+    "//start": "react-scripts start",
+    "///start": "nodemon --inspect ./src/server.js",
+    "start": "nodemon server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "ajv": "^8.16.0",
+    "cjs-loader": "^0.1.0"
+  }
+}
