@@ -40,7 +40,7 @@
   },
   "scripts": {
     "//start": "react-scripts start",
-    "///start": "nodemon --inspect ./src/server.js",
+    "///start": "nodemon --inspect server.js",
     "start": "nodemon server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
