@@ -27,7 +27,6 @@
     "npm": "^10.7.0",
     "npm-check-updates": "^16.14.20",
     "page-traffic-tracker": "^1.2.3",
-    "phantomjs-prebuilt": "^2.1.16",
     "pnpm": "^8.8.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
