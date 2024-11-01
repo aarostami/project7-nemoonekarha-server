@@ -98,4 +98,4 @@ app.get('/getallcomments', bodyParser.urlencoded({extended: true}), function (re
 	run().catch(console.dir)
 })
 
-app.listen(8000,'https://project7-nemoonekarha-server.onrender.com', () => { console.log('server run') })
+app.listen(8000, () => { console.log('server run') })
