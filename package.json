@@ -2,7 +2,6 @@
   "name": "project7-nemoonekarha-server",
   "version": "0.1.0",
   "private": true,
-  "main": "index.js",
   "dependencies": {
     "@fontsource/roboto": "^5.0.8",
     "@pnpm/exe": "^8.8.0",
