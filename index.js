@@ -94,4 +94,4 @@ app.get('/getallcomments', bodyParser.urlencoded({extended: true}), function (re
 	run().catch(console.dir)
 })
 
-app.listen(8000, () => { console.log('server run') })
+app.listen(process.env.PORT || 3000, () => { console.log('server run') })
