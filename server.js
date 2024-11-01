@@ -14,6 +14,10 @@ const app = express()
 app.use(cors())
 app.use(express.static("public"));
 
+app.get('/show', function(req, res) {
+	res.send('helllo')
+})
+
 app.post('/', bodyParser.json(), function (req, res) {
 	/* new screenshot('https://google.com')
 		.width(800)
